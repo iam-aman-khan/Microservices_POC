@@ -46,12 +46,12 @@ API Endpoints & Usage
 
 2. Orchestrator Service (localhost:8083/orchestrator)
 
-API Endpoint                        |    Description
-                                    | 
-GET /numbers?start=X&end=Y          |    Get numbers from X to Y  
-GET /prime?start=X&end=Y            |    Get prime numbers in range
-GET /happy?start=X&end=Y            |    Get happy numbers in range
-GET /prime-happy?start=X&end=Y      |    Get numbers that are both prime & happy
+API Endpoint                        &    Description
+                                    
+GET /numbers?start=X&end=Y  ----->   Get numbers from X to Y  
+GET /prime?start=X&end=Y    ----->   Get prime numbers in range
+GET /happy?start=X&end=Y    ----->    Get happy numbers in range
+GET /prime-happy?start=X&end=Y   ----->    Get numbers that are both prime & happy
 
 
 3. Number Service (localhost:8081/numbers)
