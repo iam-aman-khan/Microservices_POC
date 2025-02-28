@@ -56,22 +56,22 @@ GET /prime-happy?start=X&end=Y   ----->    Get numbers that are both prime & hap
 
 3. Number Service (localhost:8081/numbers)
 
-API Endpoint                        |    Description
-                                    | 
-GET /?start=X&end=Y                 |    Returns a list of numbers in range
+API Endpoint                        &   Description
+                                    
+GET /?start=X&end=Y   ----->    Returns a list of numbers in range
 
 4. Prime Service (localhost:8082/prime/{number})
 
-API Endpoint                        |    Description
-                                    | 
-GET /{number}                       |    Returns true if the number is prime, else false
+API Endpoint                        &    Description
+                                     
+GET /{number}    ----->    Returns true if the number is prime, else false
 
 
 5. Happy Number Service (localhost:8084/happy/{number})
 
-API Endpoint                        |    Description
-                                    | 
-GET /{number}                       |    Returns true if the number is a happy number, else false
+API Endpoint                        &    Description
+                                     
+GET /{number}    ----->    Returns true if the number is a happy number, else false
 
 
 
